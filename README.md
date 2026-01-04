@@ -1,3 +1,5 @@
+![Website Preview](project1.jpg)
+
 Dental Clinic Management System
 A web-based dental clinic system built with PHP and MySQL.  
 Patients can register, log in, and manage appointments, while administrators can manage patient records and clinic data through a secure dashboard.
