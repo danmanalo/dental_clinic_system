@@ -1,0 +1,191 @@
+/* === Google Font === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* === Reset & Base === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e6f3ff, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: #333;
+}
+
+/* === Container === */
+.login-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+/* === Card === */
+.login-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 30px 25px;
+    box-shadow: 0 12px 24px rgba(0, 123, 255, 0.1);
+    text-align: center;
+}
+
+/* === Logo === */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* === Titles === */
+.login-card h2 {
+    font-size: 24px;
+    color: #155293;
+    margin-bottom: 6px;
+}
+
+.login-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* === Input Fields === */
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #fdfdfd;
+    color: #333;
+    transition: border 0.3s ease;
+}
+
+form input:focus {
+    border-color: #2e83f2;
+    outline: none;
+}
+
+/* === Button === */
+form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #2e83f2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1c66cc;
+}
+
+/* === Links === */
+.login-links {
+    margin-top: 16px;
+    font-size: 13px;
+}
+
+.login-links a {
+    color: #2e83f2;
+    text-decoration: none;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}
+
+/* === Messages === */
+.success-msg {
+    color: #2ecc71;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.error-msg {
+    color: #e74c3c;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* === Responsive === */
+@media (max-width: 480px) {
+    .login-card {
+        padding: 24px 20px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .login-card h2 {
+        font-size: 20px;
+    }
+
+    .login-card p {
+        font-size: 13px;
+    }
+
+    form input,
+    form input[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+.dashboard-card {
+    background: #fff;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dashboard-card h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #2d2d2d;
+}
+
+.dashboard-card p {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.admin-links a {
+    display: block;
+    margin: 12px 0;
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.admin-links a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.logout-link {
+    color: red;
+}
+
+
+
+
+
+
